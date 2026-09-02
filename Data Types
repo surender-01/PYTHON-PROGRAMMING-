@@ -1,1 +1,4 @@
-
+numeric_string="42"
+converted_integer=int(numeric_string)
+print(converted_integer)
+print(type(converted_integer))
