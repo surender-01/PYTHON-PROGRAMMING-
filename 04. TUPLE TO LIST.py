@@ -1,0 +1,5 @@
+tuple = ("tuple", 67, 3.14, True, ["list", 67], {"set"}, {"dict": 67} )
+print(f"\n Tuple : {tuple}\nData Type of the tuple before convertion : {type(tuple).__name__}")
+list = list(tuple)
+print(f"\nData Type of the tuple after explicit type convertion : {type(list).__name__}")
+print(f" LIST : {list}\n")
